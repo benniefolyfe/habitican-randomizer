@@ -1,0 +1,29 @@
+
+{
+    "success": true,
+    "data": {
+        "purchased": {
+            "ads": false,
+            "txnCount": 0,
+            "skin": {},
+            "hair": {},
+            "shirt": {},
+            "background": {
+                "color_name": true
+            },
+            "plan": {
+                "consecutive": {
+                    "count": 0,
+                    "offset": 0,
+                    "gemCapExtra": 0,
+                    "trinkets": 0
+                },
+                "quantity": 1,
+                "extraMonths": 0,
+                "gemsBought": 0,
+                "mysteryItems": []
+            }
+        },
+        "items": "Same as _data_ from newPet"
+    }
+}

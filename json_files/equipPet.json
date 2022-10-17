@@ -1,0 +1,84 @@
+{
+    "success": true,
+    "data": {
+        "gear": {
+            "equipped": {
+                "armor": "item",
+                "head": "item",
+                "shield": "item",
+                "eyewear": "item",
+                "headAccessory": "item",
+                "weapon": "item"
+            },
+            "costume": {
+                "armor": "item",
+                "head": "item",
+                "shield": "item",
+                "eyewear": "item",
+                "headAccessory": "item"
+            },
+            "owned": {
+                "headAccessory_special_colorHeadband": true,
+                "eyewear_special_colorTopFrame": true,
+                "eyewear_special_colorHalfMoon": true,
+                "weapon_warrior_0": true,
+                "armor_special_bardRobes": true
+            }
+        },
+        "special": {
+            "snowball": 0,
+            "spookySparkles": 0,
+            "shinySeed": 0,
+            "seafoam": 0,
+            "valentine": 0,
+            "valentineReceived": [],
+            "nye": 0,
+            "nyeReceived": [],
+            "greeting": 0,
+            "greetingReceived": [],
+            "thankyou": 0,
+            "thankyouReceived": [],
+            "birthday": 0,
+            "birthdayReceived": [],
+            "congrats": 0,
+            "congratsReceived": [],
+            "getwell": 0,
+            "getwellReceived": [],
+            "goodluck": 0,
+            "goodluckReceived": []
+        },
+        "lastDrop": {
+            "count": 0,
+            "date": "2022-10-07T12:41:32.680Z"
+        },
+        "pets": {
+            "petname": 5
+        },
+        "eggs": {
+            "egg_name": 0
+        },
+        "hatchingPotions": {
+            "potion": 0
+        },
+        "food": {
+            "food_name": 1
+        },
+        "mounts": {},
+        "quests": {
+            "quest_name": 1
+        },
+        "currentPet": "petname"
+    },
+    "notifications": [
+        {
+            "type": "new_item",
+            "data": {
+                "title": "title_name"
+            },
+            "seen": true,
+            "id": "id_num"
+        }
+    ],
+    "userV": 54,
+    "appVersion": "4.245.2"
+}

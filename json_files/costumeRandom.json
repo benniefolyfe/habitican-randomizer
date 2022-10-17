@@ -1,0 +1,96 @@
+{
+    "success": true,
+    "data": {
+        "gear": {
+            "equipped": {
+                "armor": "armor_base_0",
+                "head": "head_base_0",
+                "shield": "shield_base_0",
+                "eyewear": "eyewear_special_blackHalfMoon",
+                "headAccessory": "headAccessory_special_yellowHeadband",
+                "weapon": "weapon_warrior_0"
+            },
+            "costume": {
+                "armor": "armor_base_0",
+                "head": "head_base_0",
+                "shield": "shield_base_0",
+                "eyewear": "eyewear_special_blueTopFrame",
+                "headAccessory": "headAccessory_special_pinkHeadband"
+            },
+            "owned": {
+                "headAccessory_special_blackHeadband": true,
+                "headAccessory_special_blueHeadband": true,
+                "headAccessory_special_greenHeadband": true,
+                "headAccessory_special_pinkHeadband": true,
+                "headAccessory_special_redHeadband": true,
+                "headAccessory_special_whiteHeadband": true,
+                "headAccessory_special_yellowHeadband": true,
+                "eyewear_special_blackTopFrame": true,
+                "eyewear_special_blueTopFrame": true,
+                "eyewear_special_greenTopFrame": true,
+                "eyewear_special_pinkTopFrame": true,
+                "eyewear_special_redTopFrame": true,
+                "eyewear_special_whiteTopFrame": true,
+                "eyewear_special_yellowTopFrame": true,
+                "eyewear_special_blackHalfMoon": true,
+                "eyewear_special_blueHalfMoon": true,
+                "eyewear_special_greenHalfMoon": true,
+                "eyewear_special_pinkHalfMoon": true,
+                "eyewear_special_redHalfMoon": true,
+                "eyewear_special_whiteHalfMoon": true,
+                "eyewear_special_yellowHalfMoon": true,
+                "weapon_warrior_0": true
+            }
+        },
+        "special": {
+            "snowball": 0,
+            "spookySparkles": 0,
+            "shinySeed": 0,
+            "seafoam": 0,
+            "valentine": 0,
+            "valentineReceived": [],
+            "nye": 0,
+            "nyeReceived": [],
+            "greeting": 0,
+            "greetingReceived": [],
+            "thankyou": 0,
+            "thankyouReceived": [],
+            "birthday": 0,
+            "birthdayReceived": [],
+            "congrats": 0,
+            "congratsReceived": [],
+            "getwell": 0,
+            "getwellReceived": [],
+            "goodluck": 0,
+            "goodluckReceived": []
+        },
+        "lastDrop": {
+            "count": 0,
+            "date": "2022-10-06T12:48:02.278Z"
+        },
+        "pets": {},
+        "eggs": {
+            "PandaCub": 1
+        },
+        "hatchingPotions": {
+            "White": 1
+        },
+        "food": {},
+        "mounts": {},
+        "quests": {
+            "dustbunnies": 1
+        }
+    },
+    "notifications": [
+        {
+            "type": "ACHIEVEMENT",
+            "data": {
+                "achievement": "purchasedEquipment"
+            },
+            "seen": false,
+            "id": "a0b1202f-29a7-4ba5-aa45-13640d2de63a"
+        }
+    ],
+    "userV": 35,
+    "appVersion": "4.245.2"
+}

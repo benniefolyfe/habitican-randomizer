@@ -1,0 +1,46 @@
+{
+    "success": true,
+    "data": [
+        {
+            "text": "Training Sword",
+            "notes": "Practice weapon. Confers no benefit. ",
+            "value": 1,
+            "type": "weapon",
+            "key": "weapon_warrior_0",
+            "set": "warrior-0",
+            "klass": "warrior",
+            "index": "0",
+            "str": 0,
+            "int": 0,
+            "per": 0,
+            "con": 0
+        },
+        {
+            "set": "monsterOfScienceSet",
+            "event": {
+                "start": "2022-09-20T08:00-04:00",
+                "end": "2022-10-31T20:00-04:00",
+                "npcImageSuffix": "_fall",
+                "season": "fall",
+                "gear": true
+            },
+            "specialClass": "warrior",
+            "text": "Grabby Claw of Science",
+            "notes": "This grabby claw is at the very cutting edge of technology. Increases Strength by 15. Limited Edition 2014 Autumn Gear. ",
+            "value": 90,
+            "twoHanded": false,
+            "str": 15,
+            "type": "weapon",
+            "key": "weapon_special_fallWarrior",
+            "klass": "special",
+            "index": "fallWarrior",
+            "int": 0,
+            "per": 0,
+            "con": 0
+        }
+        
+    ],
+    "notifications": [],
+    "userV": 26,
+    "appVersion": "4.245.2"
+}

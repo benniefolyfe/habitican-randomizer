@@ -1,0 +1,211 @@
+
+{
+    "success": true,
+    "data": {
+        "items": {
+            "gear": {
+                "equipped": {
+                    "armor": "armor_base_0",
+                    "head": "head_warrior_1",
+                    "shield": "shield_special_fall2016Warrior"
+                },
+                "costume": {
+                    "armor": "armor_base_0",
+                    "head": "head_base_0",
+                    "shield": "shield_base_0",
+                    "eyewear": "eyewear_special_greenHalfMoon",
+                    "headAccessory": "headAccessory_special_whiteHeadband"
+                },
+                "owned": {
+                    "headAccessory":"headAccessory_special_colorHeadband",
+                    "eyewear":"eyewear_special_colorHalfMoon",
+                    "head_warrior_1": true,
+                    "shield_special_fall2016Warrior": true
+                }
+            },
+            "special": "all_spl_items",
+            "lastDrop": {
+                "count": 5,
+                "date": "2022-10-07T13:17:05.471Z"
+            },
+            "pets": {
+                "pet_name": 13
+            },
+            "eggs": {
+                "egg_name": 0
+            },
+            "hatchingPotions": {
+                "potion_name": 1
+            },
+            "food": {
+                "item1": 0,
+                "Honey": 0,
+                "item2": 0
+            },
+            "mounts": {},
+            "quests": {
+                "questName": 1
+            },
+            "currentPet": "TigerCub-Shade"
+        },
+        "achievements": {
+            "ultimateGearSets": {
+                "healer": false,
+                "wizard": false,
+                "rogue": false,
+                "warrior": false
+            },
+            "streak": 0,
+            "challenges": [],
+            "perfect": 0,
+            "quests": {},
+            "completedTask": true,
+            "hatchedPet": true,
+            "fedPet": true,
+            "createdTask": true,
+            "purchasedEquipment": true
+        },
+        "stats": {
+            "buffs": {
+                "str": 0,
+                "int": 0,
+                "per": 0,
+                "con": 0,
+                "stealth": 0,
+                "streaks": false,
+                "snowball": false,
+                "spookySparkles": false,
+                "shinySeed": false,
+                "seafoam": false
+            },
+            "training": {
+                "int": 0,
+                "per": 0,
+                "str": 0,
+                "con": 0
+            },
+            "hp": 45.9,
+            "mp": 25.25,
+            "exp": 54,
+            "gp": 36.83,
+            "lvl": 3,
+            "class": "warrior",
+            "points": 3,
+            "str": 0,
+            "con": 0,
+            "int": 0,
+            "per": 0
+        },
+        "flags": {
+            "tour": {
+                "intro": -2,
+                "classes": -1,
+                "stats": -1,
+                "tavern": -1,
+                "party": -1,
+                "guilds": -1,
+                "challenges": -1,
+                "market": -2,
+                "pets": -1,
+                "mounts": -1,
+                "hall": -1,
+                "equipment": -1,
+                "groupPlans": -1
+            },
+            "tutorial": {
+                "common": {
+                    "habits": true,
+                    "dailies": true,
+                    "todos": true,
+                    "rewards": true,
+                    "party": true,
+                    "pets": true,
+                    "gems": true,
+                    "skills": true,
+                    "classes": true,
+                    "tavern": true,
+                    "equipment": true,
+                    "items": true,
+                    "mounts": true,
+                    "inbox": true,
+                    "stats": true
+                },
+                "ios": {
+                    "addTask": false,
+                    "editTask": false,
+                    "deleteTask": false,
+                    "filterTask": false,
+                    "groupPets": false,
+                    "inviteParty": false,
+                    "reorderTask": false
+                }
+            },
+            "customizationsNotification": true,
+            "showTour": true,
+            "dropsEnabled": false,
+            "itemsEnabled": true,
+            "lastNewStuffRead": "7b60a6ce-d5d2-42e6-82e0-d94f7971151f",
+            "rewrite": true,
+            "classSelected": false,
+            "rebirthEnabled": false,
+            "recaptureEmailsPhase": 0,
+            "weeklyRecapEmailsPhase": 0,
+            "communityGuidelinesAccepted": false,
+            "cronCount": 0,
+            "welcomed": true,
+            "armoireEnabled": true,
+            "armoireOpened": false,
+            "armoireEmpty": false,
+            "cardReceived": false,
+            "warnedLowHealth": false,
+            "verifiedUsername": true,
+            "levelDrops": {},
+            "lastWeeklyRecap": "2022-10-07T13:14:41.924Z"
+        },
+        "pinnedItems": [
+            {
+                "type": "potion",
+                "path": "potion"
+            },
+            {
+                "type": "armoire",
+                "path": "armoire"
+            },
+            {
+                "type": "marketGear",
+                "path": "gear.flat.weapon_warrior_0"
+            },
+            {
+                "type": "marketGear",
+                "path": "gear.flat.armor_warrior_1"
+            },
+            {
+                "type": "marketGear",
+                "path": "gear.flat.head_warrior_2"
+            },
+            {
+                "type": "marketGear",
+                "path": "gear.flat.shield_warrior_1"
+            }
+        ]
+    },
+    "message": "Bought Defensive Roots",
+    "notifications": [
+        {
+            "type": "ACHIEVEMENT",
+            "data": {
+                "achievement": "purchasedEquipment"
+            },
+            "seen": false,
+            "id": "id_number"
+        },
+        {
+            "type": "ONBOARDING_COMPLETE",
+            "data": {},
+            "seen": false,
+            "id": "id_number"
+        }
+    ],
+    "userV": 60,
+    "appVersion": "4.245.2"
+}
