@@ -2,7 +2,7 @@ import { randomElementFromArray, fetchAPI, post } from "./utils.js";
 
 export const randomBackground = async (backgrounds) => {
   let html =
-    "<h2>Equip a Random Background</h2><p>Don't know what to wear? Let the Random Numger Generator choose your background!</p>";
+    "<h2>Equip a Random Background</h2><p>Don't know what to wear? Let the Random Number Generator choose your background!</p>";
   html +=
     '<input type="button" id="equipRandomBackgroundButton" value="Equip random background">';
   html += '<p id="backgroundResponse"></p>';
