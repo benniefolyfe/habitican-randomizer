@@ -1,12 +1,12 @@
 'use strict';
 
-import { randomAnimals } from "./Modules/randomAnimals.js";
-import { randomTransformationItem } from "./Modules/randomTransformationItem.js";
-import { buyRandomEquipment } from "./Modules/buyRandomEquipment.js";
-import { randomBackground } from "./Modules/randomBackground.js";
-import { equipRandomEquipment } from "./Modules/equipRandomEquipment.js";
-import { startRandomQuest } from "./Modules/startRandomQuest.js";
-import { fetchAPI, headers, get } from "./Modules/utils.js";
+import { randomAnimals } from "./Public/Modules/randomAnimals.js";
+import { randomTransformationItem } from "./Public/Modules/randomTransformationItem.js";
+import { buyRandomEquipment } from "./Public/Modules/buyRandomEquipment.js";
+import { randomBackground } from "./Public/Modules/randomBackground.js";
+import { equipRandomEquipment } from "./Public/Modules/equipRandomEquipment.js";
+import { startRandomQuest } from "./Public/Modules/startRandomQuest.js";
+import { fetchAPI, headers, get } from "./Public/Modules/utils.js";
 
 document.querySelector('form').addEventListener('submit', (e) => {
   e.preventDefault();
