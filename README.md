@@ -1,7 +1,7 @@
 # habitican-randomizer
 Repository for the Habitican Tool for a randomized avatar, or everything else that can be randomized in the game.
 
-live version at https://ileniamagoni.com/habitican-randomizer/
+live version at https://benniefolyfe.github.io/habitican-randomizer/
 
 Features: 
  - equipping of a random pet or mount
