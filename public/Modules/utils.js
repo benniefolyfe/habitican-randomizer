@@ -9,7 +9,7 @@ export const fetchAPI = async (url, params) => {
 
 export const headers = {
   'x-client':
-    "c073342f-4a65-4a13-9ffd-9e7fa5410d6b - Ieahleen's Habitican Randomizer",
+    "377a4d3d-c55c-48b8-9bf8-59b97480daf8 - Habitican Randomizer",
 };
 export const get = { method: 'GET' };
 export const post = { method: 'POST' };
