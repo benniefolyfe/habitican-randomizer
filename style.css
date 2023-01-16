@@ -10,7 +10,7 @@ div {
   margin: 10px;
 }
 .wrapper {
-  border: 3px dashed var(--purple);
+  border: 3px dashed var(--indigo);
   padding: 20px;
 }
 p {
