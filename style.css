@@ -1,6 +1,6 @@
 :root {
   --indigo: #6610f2;
-  --purple: #6f42c1;
+  --purple: #6610f2;
 }
 div {
   padding: 10px;
@@ -10,7 +10,7 @@ div {
   margin: 10px;
 }
 .wrapper {
-  border: 3px dashed var(--indigo);
+  border: 3px dashed var(--purple);
   padding: 20px;
 }
 p {
