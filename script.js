@@ -126,7 +126,7 @@ function randomTransformationItem(specialObj, partyMembersArr, repeat = false) {
   if (transformationItems.length > 0) {
     html += `<input type="button" id="randomTransformationItem" value="Cast random transformation item on random party member"><label for="no-repeat"><input id="no-repeat" type="checkbox"${
       repeat ? 'checked' : ''
-    }> Do not transform if already trasformed please</label><span id="no-repeat-span" class="not-found hide">No party mate available</span>`;
+    }> Do not transform if already transformed please</label><span id="no-repeat-span" class="not-found hide">No party mate available</span>`;
   } else {
     html += '<p id="not-found">No transformation items were found</p>';
   }
