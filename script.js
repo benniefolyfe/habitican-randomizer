@@ -415,6 +415,29 @@ document.querySelector('form').addEventListener('submit', (e) => {
   build();
 });
 
+function showHabiticaAvatar() {
+  let html = `
+    <div id="habiticaAvatarWrapper">
+      <iframe
+        src="https://crookedneighbor.github.io/habitica-avatar/avatar.html#${UUID}"
+        scrolling="no"
+        style="width: 140px; height: 147px; overflow-y: hidden; border: none;"
+      ></iframe>
+      <p>Description: <span id="habiticaAvatarDescription"></span></p>
+      <button id="refreshHabiticaAvatar">Refresh</button>
+    </div>
+  `;
+  let div = document.createElement('div');
+  div.innerHTML = html;
+  div.classList.add('wrapper');
+  div.setAttribute('id', 'habiticaAvatarDiv');
+  document.getElementById('main').appendChild(div);
+  // Add event listener for the "Refresh" button
+  document.getElementById('refreshHabiticaAvatar').addEventListener('click', () => {
+    refreshHabiticaAvatar();
+  });
+}
+
 async function build() {
   let UUID = document.getElementById('UUID').value;
   let apiKey = document.getElementById('api-key').value;
@@ -479,4 +502,7 @@ async function build() {
   buyRandomEquipment(goldOwned, availableEquipmentArr);
 
   equipRandomEquipment(gearObj, allGear);
+  
+  showHabiticaAvatar(UUID)
+  
 }
