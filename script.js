@@ -32,7 +32,7 @@ async function castSkill(spellId, targetId) {
   return response;
 }
 
-function showHabiticaAvatar = (UUID) => {
+function showHabiticaAvatar() {
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
