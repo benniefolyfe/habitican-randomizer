@@ -37,7 +37,7 @@ function randomAnimals(mountsObj, petsObj) {
   let mounts = Object.keys(mountsObj).filter((m) => mountsObj[m]);
   let pets = Object.keys(petsObj).filter((p) => petsObj[p]);
   html +=
-    "<h2>Random Pet and Random Mount!</h2><p>Don't want to choose your next mount or pet? You can randomize with a click.</p><p>Each pet and mount has the same chance to come out, so it can happen that if currect equipped animal is selected, then it is just unequipped.</p>";
+    "<h2>Random Pet and Random Mount!</h2><p>Don't want to choose your next mount or pet? You can randomize with a click.</p><p>Each pet and mount has the same chance for random selection. If the current equipped animal is selected, then it will be unequipped.</p>";
   // random mount button
   if (mounts.length > 0) {
     html += '<input type="button" id="randomMount" value="Equip random mount">';
@@ -116,7 +116,7 @@ function randomTransformationItem(specialObj, partyMembersArr, repeat = false) {
 
   console.log(partyMembersArr);
   let html =
-    '<h2>Random Transformation Item</h2><p>Do you have many party members and many transformation items and choosing is so much effort? No issue, just press a button, and no choice is necessary.</p>';
+    '<h2>Random Transformation Item</h2><p>Do you have many party members and many transformation items? Is it difficult to choose who to turn into what? No problem! Just press a button, and no choice is necessary!</p>';
   let transformationItems = [
     'snowball',
     'spookySparkles',
@@ -231,9 +231,8 @@ function randomTransformationItem(specialObj, partyMembersArr, repeat = false) {
 
 function buyRandomEquipment(goldOwned, availableEquipmentArr) {
   let html =
-    '<h2>Buy Random Equipment from the Market!</h2><p>Do you have too much stuff to buy, after maybe emptying your inventory ';
-  html += 'by resetting your account, or kind request to an admin?';
-  html += 'Just buy a random one using the button!</p>';
+    '<h2>Buy Random Equipment from the Market!</h2><p>Was your inventory recently emptied? Do you have too many things to buy? ';
+  html += 'Just buy a random item using the button!</p>';
   availableEquipmentArr = availableEquipmentArr.filter(
     (i) => i.value <= goldOwned
   );
@@ -268,7 +267,7 @@ function buyRandomEquipment(goldOwned, availableEquipmentArr) {
 
 async function randomBackground(backgrounds) {
   let html =
-    "<h2>Equip a Random Background</h2><p>Don't know what to wear? Let the Random Numger Generator choose your background!</p>";
+    "<h2>Equip a Random Background</h2><p>Don't know what to wear? Let the Random Number Generator choose your background!</p>";
   html +=
     '<input type="button" id="equipRandomBackgroundButton" value="Equip random background">';
   html += '<p id="backgroundResponse"></p>';
