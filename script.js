@@ -416,6 +416,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
 });
 
 function showHabiticaAvatar() {
+  let UUID = document.getElementById('UUID').value;
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
@@ -503,6 +504,6 @@ async function build() {
 
   equipRandomEquipment(gearObj, allGear);
   
-  showHabiticaAvatar(UUID)
+  showHabiticaAvatar()
   
 }
