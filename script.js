@@ -449,7 +449,7 @@ document.addEventListener('click', (event) => {
 function refreshHabiticaAvatar() {
   let iframe = document.querySelector('#habiticaAvatarWrapper iframe');
   let src = iframe.src;
-  iframe.src = `${src}?t=${new Date().getTime()}`;
+  iframe.src = `${src.split('?')[0]}?t=${new Date().getTime()}`;
 }
 
 async function build() {
