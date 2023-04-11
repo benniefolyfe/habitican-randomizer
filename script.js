@@ -424,7 +424,7 @@ function showHabiticaAvatar(UserID) {
         scrolling="no"
         style="width: 140px; height: 147px; overflow-y: hidden; border: none;"
       ></iframe>
-      <p>Click the button to refresh your avatar and see your changes!</p>
+      <p>Click the button to refresh the page and see your new avatar!</p>
       <button id="refreshHabiticaAvatar">Refresh</button>
     </div>
   `;
@@ -441,8 +441,8 @@ function showHabiticaAvatar(UserID) {
 
 // Attach event listener to document for event delegation
 document.addEventListener('click', (event) => {
-  if (event.target && event.target.id === 'refreshHabiticaAvatar') {
-    refreshHabiticaAvatar();
+  if (event.target && event.target.id === 'build') {
+    build();
   }
 });
 
