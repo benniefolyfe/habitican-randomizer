@@ -435,13 +435,13 @@ function showHabiticaAvatar(UserID) {
   document.getElementById('main').appendChild(div);
   // Add event listener for the "Refresh" button
   document.getElementById('refreshHabiticaAvatar').addEventListener('click', () => {
-    refreshHabiticaAvatar();
+    build();
   });
 }
 
 // Attach event listener to document for event delegation
 document.addEventListener('click', (event) => {
-  if (event.target && event.target.id === 'build') {
+  if (event.target && event.target.id === 'refreshHabiticaAvatar') {
     build();
   }
 });
