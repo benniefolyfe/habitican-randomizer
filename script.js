@@ -420,7 +420,7 @@ function showHabiticaAvatar() {
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
-        src="https://crookedneighbor.github.io/habitica-avatar/avatar.html#${UUID}"
+        src="https://crookedneighbor.github.io/habitica-avatar/avatar.html#${377a4d3d-c55c-48b8-9bf8-59b97480daf8}"
         scrolling="no"
         style="width: 140px; height: 147px; overflow-y: hidden; border: none;"
       ></iframe>
