@@ -417,7 +417,6 @@ document.querySelector('form').addEventListener('submit', (e) => {
 
 function showHabiticaAvatar(UserID) {
   // let UUID = document.getElementById('UUID').value;
-  let habiticaAvatarDescription = "Click the button to refresh your avatar and see your changes!"
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
@@ -425,7 +424,7 @@ function showHabiticaAvatar(UserID) {
         scrolling="no"
         style="width: 140px; height: 147px; overflow-y: hidden; border: none;"
       ></iframe>
-      <p>Description: <span id="habiticaAvatarDescription"></span></p>
+      <p>Click the button to refresh your avatar and see your changes!</p>
       <button id="refreshHabiticaAvatar">Refresh</button>
     </div>
   `;
@@ -440,14 +439,16 @@ function showHabiticaAvatar(UserID) {
   });
 }
 
+// Attach event listener to document for event delegation
+document.addEventListener('click', (event) => {
+  if (event.target && event.target.id === 'refreshHabiticaAvatar') {
+    refreshHabiticaAvatar();
+  }
+});
+
 function refreshHabiticaAvatar() {
-  // Get the iframe element
   let iframe = document.querySelector('#habiticaAvatarWrapper iframe');
-  
-  // Store the current src attribute
   let src = iframe.src;
-  
-  // Update the src attribute with a timestamp query parameter to trigger a refresh
   iframe.src = `${src}?t=${new Date().getTime()}`;
 }
 
