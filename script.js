@@ -416,7 +416,6 @@ document.querySelector('form').addEventListener('submit', (e) => {
 });
 
 function showHabiticaAvatar(UserID) {
-  // let UUID = document.getElementById('UUID').value;
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
@@ -435,14 +434,14 @@ function showHabiticaAvatar(UserID) {
   document.getElementById('main').appendChild(div);
   // Add event listener for the "Refresh" button
   document.getElementById('refreshHabiticaAvatar').addEventListener('click', () => {
-    showHabiticaAvatar(UUID);
+    refreshHabiticaAvatar();
   });
 }
 
 // Attach event listener to document for event delegation
 document.addEventListener('click', (event) => {
   if (event.target && event.target.id === 'refreshHabiticaAvatar') {
-    showHabiticaAvatar(UUID);
+    refreshHabiticaAvatar();
   }
 });
 
@@ -450,6 +449,7 @@ function refreshHabiticaAvatar() {
   let iframe = document.querySelector('#habiticaAvatarWrapper iframe');
   let src = iframe.src;
   iframe.src = `${src.split('?')[0]}?t=${new Date().getTime()}`;
+  build();
 }
 
 async function build() {
