@@ -417,6 +417,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
 
 function showHabiticaAvatar(UserID) {
   // let UUID = document.getElementById('UUID').value;
+  let habiticaAvatarDescription = "Click the button to refresh your avatar and see your changes!"
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
@@ -437,6 +438,17 @@ function showHabiticaAvatar(UserID) {
   document.getElementById('refreshHabiticaAvatar').addEventListener('click', () => {
     refreshHabiticaAvatar();
   });
+}
+
+function refreshHabiticaAvatar() {
+  // Get the iframe element
+  let iframe = document.querySelector('#habiticaAvatarWrapper iframe');
+  
+  // Store the current src attribute
+  let src = iframe.src;
+  
+  // Update the src attribute with a timestamp query parameter to trigger a refresh
+  iframe.src = `${src}?t=${new Date().getTime()}`;
 }
 
 async function build() {
