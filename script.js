@@ -421,7 +421,7 @@ function showHabiticaAvatar() {
   let html = `
     <div id="habiticaAvatarWrapper">
       <iframe
-        src="https://crookedneighbor.github.io/habitica-avatar/avatar.html#${}"
+        src="https://crookedneighbor.github.io/habitica-avatar/avatar.html#${UUID}"
         scrolling="no"
         style="width: 140px; height: 147px; overflow-y: hidden; border: none;"
       ></iframe>
@@ -505,6 +505,6 @@ async function build() {
 
   equipRandomEquipment(gearObj, allGear);
   
-  showHabiticaAvatar()
+  showHabiticaAvatar(UUID)
   
 }
