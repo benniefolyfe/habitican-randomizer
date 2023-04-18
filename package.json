@@ -4,6 +4,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "vercel-build": "npm install && npm run build"
+    "build": "echo 'Build step completed.'"
   }
 }
