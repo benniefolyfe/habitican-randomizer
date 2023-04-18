@@ -3,6 +3,7 @@
     "express": "^4.18.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "vercel-build": "npm install && npm run build"
   }
 }
